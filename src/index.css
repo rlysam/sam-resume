@@ -1,0 +1,51 @@
+body {
+	margin: 0;
+	background-color: #1c252e;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+		"Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+		sans-serif;
+	color: black;
+}
+
+code {
+	font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+		monospace;
+}
+
+/* Navigation Bar / SideBar */
+.navbar {
+	height: 100%; /* Full-height: remove this if you want "auto" height */
+	width: 84px;
+	position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+	z-index: 1; /* Stay on top */
+	top: 0; /* Stay at the top */
+	left: 0;
+background: rgba(0, 0, 0, 0.2);
+	/* opacity: 0.2; */
+	overflow-x: hidden; /* Disable horizontal scroll */
+	padding-top: 20px;
+	color: red;
+}
+
+.nav-icon {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.links {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.content {
+	color: #f9f9f9;
+	margin-left: 84px;
+	height: 100%;
+	padding: 0px 0px;
+}
+
+.about {
+	background-color: pink;
+}
