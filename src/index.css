@@ -31,12 +31,11 @@ code {
 
 /* container for Nav-Icon */
 .nav-icon {
-	/* background-color: pink; */
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	height: 80px;
+	height: 84px;
 }
 
 /* Container for all the links */
@@ -50,21 +49,36 @@ code {
 	justify-content: center;
 }
 
-/* children of the links */
-.links > *  + * {
-	margin-top: 20px;
+.link-item {
+	margin-top: 28px;
+	color: #FFFFFF;
+	opacity: 0.7;
+	height: 32px;
+	width: 32px;
 }
 
-/* Home */
 /* Actual content(?) */
 .content {
-	/* color: #f9f9f9; */
-	color: black;
-	background-color: aqua;
+	background-color: purple;
+	color: #f9f9f9;
 	margin-left: 84px; /* para naka align  din sa kabila*/
 	padding: 0px 0px;
+	padding-left: 84px;
+	padding-top: 120px;
+	display: flex;
+	flex: 1;
+}
+
+.title {
+	font-size: 96px;
+}
+
+.body-text {
+	font-size: 24px;
+	line-height: 36px;
 }
 
 .about {
-	background-color: pink;
+	/* background-color: pink; */
+	width: 844px;
 }

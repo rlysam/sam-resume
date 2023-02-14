@@ -1,22 +1,23 @@
 import { Link } from "react-router-dom";
 import NavIconLogo from "../assets/Nav-Icon.svg";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faHome, faUser, faGear, faEye, faEnvelope, } 
+from "@fortawesome/free-solid-svg-icons";
 
 const Navbar = () => {
 	return (
 		<nav className="navbar">
 			<h1 className="nav-icon">
 				<Link to="/">
-				<img src={ NavIconLogo } alt="" srcset="" className="nav-logo-icon" />	
+					<img src={NavIconLogo} alt="" srcset="" className="nav-logo-icon" />
 				</Link>
 			</h1>
 			<div className="links">
-				<Link to="/">
-					Home
-				</Link>
-				<Link to="/About">About</Link>
-				<Link to="/About">Skills</Link>
-				<Link to="/About">Portfolio</Link>
-				<Link to="/About">Socials</Link>
+				<Link to="/"> <     FontAwesomeIcon className="link-item" icon={faHome} /> </Link>
+				<Link to="/About"> <FontAwesomeIcon className="link-item" icon={faUser} /> </Link>
+				<Link to="/Skils"><FontAwesomeIcon className="link-item" icon={faGear} /> </Link>
+				<Link to="/Works"> <FontAwesomeIcon className="link-item" icon={faEye} /> </Link>
+				<Link to="/Socials"> <FontAwesomeIcon className="link-item" icon={faEnvelope} /> </Link>
 			</div>
 		</nav>
 	);
