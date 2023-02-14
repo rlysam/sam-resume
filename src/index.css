@@ -20,29 +20,48 @@ code {
 	z-index: 1; /* Stay on top */
 	top: 0; /* Stay at the top */
 	left: 0;
-background: rgba(0, 0, 0, 0.2);
+	background: rgba(0, 0, 0, 0.2);
 	/* opacity: 0.2; */
 	overflow-x: hidden; /* Disable horizontal scroll */
-	padding-top: 20px;
-	color: red;
+	/* padding-top: 20px; */
+	/* color: red; */
+	display: flex;
+	flex-direction: column;
 }
 
+/* container for Nav-Icon */
 .nav-icon {
+	/* background-color: pink; */
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	justify-content: center;
+	height: 80px;
 }
 
+/* Container for all the links */
 .links {
+	color: #f9f9f9;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	flex: 1;
+	align-items: center;
+	justify-content: center;
 }
 
+/* children of the links */
+.links > *  + * {
+	margin-top: 20px;
+}
+
+/* Home */
+/* Actual content(?) */
 .content {
-	color: #f9f9f9;
-	margin-left: 84px;
-	height: 100%;
+	/* color: #f9f9f9; */
+	color: black;
+	background-color: aqua;
+	margin-left: 84px; /* para naka align  din sa kabila*/
 	padding: 0px 0px;
 }
 
