@@ -3,89 +3,60 @@ body {
 	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
 		"Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
 		sans-serif;
-	color: black;
 }
 
 body,
 html {
-	background-color: pink;
 	margin: 0;
 	padding: 0;
 }
 
-code {
+.App {
+	display: flex;
+	flex: 1;
+	background-color: pink;
+}
+
+/* code {
 	font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
 		monospace;
 }
+ */
 
 /* Navigation Bar / SideBar */
 .navbar {
-/* Full-height: remove this if you want "auto" height */
-	height: 100%; 
-	width: 84px;
-	position: fixed; /* Fixed Sidebar (stay in place on scroll) */
-	z-index: 1; /* Stay on top */
-	top: 0; /* Stay at the top */
-	left: 0;
-	background: rgba(0, 0, 0, 0.2);
-	/* opacity: 0.2; */
-	overflow-x: hidden; /* Disable horizontal scroll */
-	/* padding-top: 20px; */
-	/* color: red; */
-	display: flex;
-	flex-direction: column;
+	background-color: blue;
+	width: 83px;
 }
 
 /* container for Nav-Icon */
 .nav-icon {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
-	height: 84px;
 }
 
 /* Container for all the links */
 .links {
-	color: #f9f9f9;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	flex: 1;
-	align-items: center;
-	justify-content: center;
 }
 
 .link-item {
-	margin-top: 28px;
-	color: #ffffff;
-	opacity: 0.7;
-	height: 32px;
-	width: 32px;
 }
 
 /* Actual content(?) */
 .content {
-	background-color: green;
-	color: #f9f9f9;
-	opacity: 0.7;
-	margin-left: 84px; /* para naka align din sa kabila*/
-	padding-left: 84px;
-	padding-top: 120px;
-	margin-top: 0;
-	height: 100vh;
+background-color: green;
+height: 100vh;
+width: 100vh;
 }
 
 
 .title {
-	font-size: 96px;
-	margin:0;
+	/* font-size: 96px;
+	margin:0; */
 }
 
 .body-text {
-	font-size: 24px;
+	/* font-size: 24px;
 	line-height: 36px;
-	margin:0;
+	margin:0; */
 }
 
 .about {
@@ -94,24 +65,25 @@ code {
 }
 
 .about .text-content {
-	background-color: greenyellow;
+	/* background-color: greenyellow;
 	color: #1c252e;
 	/* width: 844px; */
-	margin-right: 50%;
+	/* margin-right: 50%;
 	margin-top: 0;
+	*/ 
 }
 
 .about .socials {
-	background-color: aqua;
+	/* background-color: aqua;
 	color: black;
 	display: flex;
 	justify-content: flex-end;
 	align-items: flex-end;
-	margin-top: 0;
+	margin-top: 0; */
 }
 
 .about .socials p {
-	background-color: khaki;
+	/* background-color: khaki;
 	padding-right: 5px;
-	margin-top: 0;
+	margin-top: 0; */
 }
