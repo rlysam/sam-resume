@@ -3,7 +3,7 @@
 // import useFetch from "./useFetch";
 
 const Home = () => {
-	return <div className="home">Hello this is home!</div>;
+	return <div className="inside-page">Hello this is home!</div>;
 };
 
 export default Home;

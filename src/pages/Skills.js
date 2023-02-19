@@ -2,7 +2,7 @@
 
 const Skills = () => {
 	return (
-		<div className="about">
+		<div className="inside-page">
 			<div className="text-content">
 				<h1 className="title">Skills & Experience</h1>
 				<p className="body-text">
