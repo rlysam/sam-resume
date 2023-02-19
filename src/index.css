@@ -54,6 +54,14 @@ html {
 	width: 32px;
 }
 
+.active {
+	margin-top: 28px;
+	color: #FF4654;
+	opacity: 0.7;
+	height: 32px;
+	width: 32px;
+}
+
 /* Actual content(?) */
 .content {
 	/* background-color: green; */

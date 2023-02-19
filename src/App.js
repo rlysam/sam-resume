@@ -22,6 +22,12 @@ function App() {
 						<Route path="/skills">
 								<Skills />
 						</Route>
+						<Route path="/works">
+								<Skills />
+						</Route>
+						<Route path="/socials">
+								<Skills />
+						</Route>
 					</Switch>
 				</div>
 			</div>
