@@ -59,21 +59,18 @@ code {
 	/* background-color: green; */
 	height: 100vh;
 	flex-grow: 1;
-
 	/* content font and opacity: ; */
 	color: #f9f9f9;
 	opacity: 0.7;
-
-	/* margin, for all pages */
-	padding-left: 80px;
-	padding-top: 120px;
 }
 
+/* Biggest Font */
 .title {
 	font-size: 96px;
 	margin: 0;
 }
 
+/* Main Text */
 .body-text {
 	font-size: 24px;
 	line-height: 36px;
@@ -81,30 +78,35 @@ code {
 	max-width: 844px;
 }
 
+.inside-page {
+	height: 100vh;
+	box-sizing: border-box;
+	padding-left: 80px;
+	padding-top: 120px;
+	display: flex;
+	flex-direction: column;
+}
+
 .about {
-	height: 100%;
+	justify-content: space-between;
 }
 
-.about .text-content {
-	/* background-color: greenyellow;
-	color: #1c252e;
-	/* width: 844px; */
-	/* margin-right: 50%;
-	margin-top: 0;
-	*/
-}
-
-.about .socials {
-	/* background-color: aqua;
-	color: black;
+.inside-page .socials {
 	display: flex;
 	justify-content: flex-end;
-	align-items: flex-end;
-	margin-top: 0; */
+	margin-top: 0;
+	/* make it like floating action buttons */
+	position: fixed;
+	bottom: 40px;
+	right: 40px;
+	z-index: 1;
 }
 
-.about .socials p {
-	/* background-color: khaki;
-	padding-right: 5px;
-	margin-top: 0; */
+.about .link-item{
+	margin-top: 28px;
+	color: #46FFD3;
+	opacity: 0.7;
+	height: 44px;
+	width: 	44px;
+	padding-right: 30px;
 }
