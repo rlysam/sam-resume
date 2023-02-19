@@ -13,20 +13,23 @@ html {
 
 .App {
 	display: flex;
-	flex: 1;
-	background-color: pink;
+	margin: 0;
+	padding: 0;
 }
 
-/* code {
+code {
 	font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
 		monospace;
 }
- */
 
 /* Navigation Bar / SideBar */
 .navbar {
-	background-color: blue;
-	width: 83px;
+	background: rgba(0, 0, 0, 0.2);
+	width: 84px;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	flex-direction: column;
 }
 
 /* container for Nav-Icon */
@@ -35,33 +38,51 @@ html {
 
 /* Container for all the links */
 .links {
+	color: #f9f9f9;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	flex-grow: 1;
 }
 
 .link-item {
+	margin-top: 28px;
+	color: #ffffff;
+	opacity: 0.7;
+	height: 32px;
+	width: 32px;
 }
 
 /* Actual content(?) */
 .content {
-background-color: green;
-height: 100vh;
-width: 100vh;
+	/* background-color: green; */
+	height: 100vh;
+	flex-grow: 1;
+
+	/* content font and opacity: ; */
+	color: #f9f9f9;
+	opacity: 0.7;
+
+	/* margin, for all pages */
+	padding-left: 80px;
+	padding-top: 120px;
 }
 
-
 .title {
-	/* font-size: 96px;
-	margin:0; */
+	font-size: 96px;
+	margin: 0;
 }
 
 .body-text {
-	/* font-size: 24px;
+	font-size: 24px;
 	line-height: 36px;
-	margin:0; */
+	margin: 0;
+	max-width: 844px;
 }
 
 .about {
-	/* background-color: pink; */
-	/* align-content: space-between; */
+	height: 100%;
 }
 
 .about .text-content {
@@ -70,7 +91,7 @@ width: 100vh;
 	/* width: 844px; */
 	/* margin-right: 50%;
 	margin-top: 0;
-	*/ 
+	*/
 }
 
 .about .socials {

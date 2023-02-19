@@ -7,11 +7,11 @@ from "@fortawesome/free-solid-svg-icons";
 const Navbar = () => {
 	return (
 		<nav className="navbar">
-			<h1 className="nav-icon">
+			<div className="nav-icon">
 				<Link to="/">
 					<img src={NavIconLogo} alt="" srcset="" className="nav-logo-icon" />
 				</Link>
-			</h1>
+			</div>
 			<div className="links">
 				<Link to="/"> <     FontAwesomeIcon className="link-item" icon={faHome} /> </Link>
 				<Link to="/About"> <FontAwesomeIcon className="link-item" icon={faUser} /> </Link>
