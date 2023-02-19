@@ -15,7 +15,7 @@ const Navbar = () => {
 			<div className="links">
 				<Link to="/"> <     FontAwesomeIcon className="link-item" icon={faHome} /> </Link>
 				<Link to="/About"> <FontAwesomeIcon className="link-item" icon={faUser} /> </Link>
-				<Link to="/Skils"><FontAwesomeIcon className="link-item" icon={faGear} /> </Link>
+				<Link to="/Skills"><FontAwesomeIcon className="link-item" icon={faGear} /> </Link>
 				<Link to="/Works"> <FontAwesomeIcon className="link-item" icon={faEye} /> </Link>
 				<Link to="/Socials"> <FontAwesomeIcon className="link-item" icon={faEnvelope} /> </Link>
 			</div>

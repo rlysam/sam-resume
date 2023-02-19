@@ -1,6 +1,7 @@
 import NavBar from "./components/NavBar";
 import Home from "./pages/Home";
 import About from "./pages/About";
+import Skills from "./pages/Skills";
 
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 // import Create from './Create';
@@ -17,6 +18,9 @@ function App() {
 						</Route>
 						<Route path="/about">
 								<About />
+						</Route>
+						<Route path="/skills">
+								<Skills />
 						</Route>
 					</Switch>
 				</div>
