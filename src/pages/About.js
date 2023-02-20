@@ -9,6 +9,7 @@ import { FacebookFill, LinkedinBoxFill, GithubFill, DiscordFill} from 'akar-icon
 const About = () => {
 	return (
 		<div className="inside-page about">
+			<div className="inner-about">
 			<div className="text-content">
 				<h1 className="title">About Me</h1>
 				<p className="body-text">
@@ -32,6 +33,7 @@ const About = () => {
 			<a href="https://github.com/rlysam" target="_blank"> <GithubFill className="link-item" /> </a>
 			<a href="https://www.google.com/" target="_blank"> <DiscordFill className="link-item" /> </a>
 		</div>
+			</div>
 	</div>
 );
 };
